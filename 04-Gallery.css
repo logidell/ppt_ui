@@ -1,0 +1,18 @@
+#section1,
+#section2,
+#section3 {
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.display-4 {
+    margin: 60px;
+}
+
+
+.blank {
+    margin: 100px;
+}

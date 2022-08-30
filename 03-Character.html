@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>Tic,Tok,Tak,Tok</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="00-webcommon.css">
+  <link rel="stylesheet" href="03-Character.css">
+  <!-- fevicon ,logo  -->
+  <link rel="shortcut icon" href="image\favicon.ico" type="image/x-icon">
+  <link rel="icon" href="image\favicon.ico" type="image/x-icon">
+
+
+</head>
+
+<body>
+
+
+  <header id="heater" class="fixed-top  align-items-center header-transparent">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container d-flex justify-content-between align-items-center">
+        <a class="navbar-brand" href="index.html"><img src="image\nier-automata-logo-nier-automata-1059032.png"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse nav justify-content-center" id="navbarNav">
+          <ul class="navbar-nav  justify-content-center">
+            <li class="nav-item col-6 .col-sm-3">
+              <a class="nav-link" aria-current="page" href="02-home.html">S:tory</a>
+            </li>
+            <li class="nav-item col-6 .col-sm-3">
+              <a class="nav-link active" href="03-Character.html">C:haracter</a>
+            </li>
+            <li class="nav-item col-6 .col-sm-3">
+              <a class="nav-link" href="04-Gallery.html">G:allery</a>
+            </li>
+            <li class="nav-item col-6 .col-sm-3">
+              <a class="nav-link" href="05-Others.html">O:thers</a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+
+  </header>
+
+
+  <!-- main -->
+  <main>
+    <picture>
+      <source srcset="image\03_ss.jpg" type="image/svg+xml">
+      <img src="image\03_ssss.jpg" class="img-fluid img-thumbnail" alt="...">
+    </picture>
+    <div class="container">
+
+
+
+      <h1 class="display-1 text-center">Character</h1>
+      <hr class="featurette-divider">
+      <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+        <symbol id="check-circle-fill" fill="currentColor" viewBox="0 0 16 16">
+          <path
+            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+        </symbol>
+        <symbol id="info-fill" fill="currentColor" viewBox="0 0 16 16">
+          <path
+            d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z" />
+        </symbol>
+        <symbol id="exclamation-triangle-fill" fill="currentColor" viewBox="0 0 16 16">
+          <path
+            d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+        </symbol>
+      </svg>
+      <div class="alert alert-danger d-flex align-items-center" role="alert">
+        <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Danger:">
+          <use xlink:href="#exclamation-triangle-fill" />
+        </svg>
+        <div>
+          이 페이지는 스포일러가 포함되어 있을 수 있습니다. 열람시 주의해주시길 바랍니다. 주접도 심합니다.
+        </div>
+      </div>
+
+
+      <hr class="featurette-divider">
+      <h3 class="display-4 text-center">Player character</h3>
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 mb-4">
+          <h2 class="featurette-heading"> 2B <br><span class="text-muted">YoRHa No.2 Type B(Battler) </span>
+          </h2>
+          <h6 class="lead text-muted">#신념 #조용한_의지의_칼날 #작가공인_최강 #츤데레 #외강내유 #의외의_허당</h6><br>
+          <p class="lead">냉정하고 무뚝뚝하려고 노력하는 마음 착한 전투형 안드로이드<br> 상황판단이 빠르다. 검, 대검, 너클, 창까지 모두 섭렵한 전투형 안드로이드다. 아, 그대는 그저
+            빛... </p>
+          <div id="2b" class="container">
+            <h6>전투력</h6>
+            <div class=" progress">
+              <div class="progress-bar progress-bar-striped bg-danger progress-bar-animated" role="progressbar"
+                style="width: 100%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <h6>상냥함</h6>
+            <div class=" progress">
+              <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 70%"
+                aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <h6>끈기</h6>
+            <div class=" progress">
+              <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 95%"
+                aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <h6>엉뚱함</h6>
+            <div class=" progress">
+              <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 40%"
+                aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+
+
+        </div>
+        <div class="col-md-5">
+          <div class="content-wrap">
+            <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="400"
+              height="350" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
+              preserveAspectRatio="xMidYMid slice" focusable="false">
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="#eee" />
+
+              <image href="image\03-c2b.jpg" height="800" width="800" x="-210" y="-180">
+            </svg>
+          </div>
+        </div>
+      </div>
+      <hr class="featurette-divider">
+
+
+
+      <div class="row featurette">
+        <div class="col-md-7 mb-4 order-md-2">
+          <h2 class="featurette-heading">9S <br>
+            <span class="text-muted">YoRHa No.9 Type S(Scanner)</span>
+          </h2>
+          <h6 class="lead text-muted">#고독 #덧없는_다정함과_영혼 #외유내강 #<s>이구역공(포의)주(둥아리)는나야비켜</s></h6><br>
+          <p class="lead">밝음과 정중함 속에 숨겨진 칼날이 무서운 서포터형 안드로이드 <br> 전투력이 뛰어나진 않지만 해킹실력이 뛰어난 안드로이드다. <br>
+            이 아이가 아직도 말랑콩떡으로 보이신다면 당신은 이 게임을 하지 않은 것이다! 친절과 상냥함은 2B한정인 무서운 녀석
+          </p>
+
+          <div id="9s" class="container">
+            <h6>공주력</h6>
+            <div class=" progress">
+              <div class="progress-bar progress-bar-striped bg-warning progress-bar-animated" role="progressbar"
+                style="width: 93%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <h6>해킹</h6>
+            <div class=" progress">
+              <div class="progress-bar progress-bar-striped  bg-danger progress-bar-animated" role="progressbar"
+                style="width: 100%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <h6>전투력</h6>
+            <div class=" progress">
+              <div class="progress-bar progress-bar-striped bg-info progress-bar-animated" role="progressbar"
+                style="width: 25%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <h6>친절함</h6>
+            <div class=" progress">
+              <div class="progress-bar progress-bar-striped  bg-info progress-bar-animated" role="progressbar"
+                style="width: 50%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-5 order-md-1">
+          <div class="content-wrap align-items-center"></div>
+          <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="400"
+            height="350" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
+            preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#eee" />
+
+            <image href="image\03-c9s.jpg" height="800" width="800" x="-285" y="-215">
+          </svg>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 mb-4">
+          <h2 class="featurette-heading">A2 <br><span class="text-muted">YoRHa No.9 Type A(Attacker)</span>
+            <h6 class="lead text-muted">#복수 #과거과_증오의_소용돌이 #찐과묵 #바른 성격에_그렇지_못한_태도 #복수도_성실해야_하는거야 #<s>어린이는_저리비켜</s></h6>
+            <br>
+
+          </h2>
+          <p class="lead">배틀형과는 다르게 어태커인 안드로이드, 2B이전에 나온 구형 모델이다. 2B,9S와는 다르게 자폭모드가 없는 대신 폭주모드가 있다.<br> 삐딱해 보여도 성격은 바르다.
+            틱틱대지만 걸어오는 말은 꼬박꼬박 대답하는 성실함을 보인다(...), 외견이 많이 헤지고 닳았으나 원형은 2B와 닮은 외모를 가지고 있다.
+          </p>
+          <div id="a2" class="container">
+            <h6>공주력</h6>
+            <div class=" progress">
+              <div class="progress-bar progress-bar-striped  bg-danger progress-bar-animated" role="progressbar"
+                style="width: 100%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <h6>친절함</h6>
+            <div class=" progress">
+              <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 90%"
+                aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <h6>성실함</h6>
+            <div class=" progress">
+              <div class="progress-bar progress-bar-striped bg-danger progress-bar-animated" role="progressbar"
+                style="width: 100%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <h6>전투력</h6>
+            <div class=" progress">
+              <div class="progress-bar progress-bar-striped bg-warning progress-bar-animated" role="progressbar"
+                style="width: 60%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+
+
+        </div>
+        <div class="col-md-5 ">
+          <div class="content-wrap">
+            <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="400"
+              height="350" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
+              preserveAspectRatio="xMidYMid slice" focusable="false">
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="#eee" />
+
+              <image href="image\03-ca2.jpg" height="1000" width="1000" x="-250" y="-300">
+            </svg>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <hr class="featurette-divider">
+
+
+    </div>
+    </div>
+  </main>
+
+  <!-- footer -->
+  <div id="content-wrap">
+  </div>
+  <footer>
+    <p>cover template for<a href="https://getbootstrap.com/" class="text-black">bootstrap</a>
+      by
+      <a href="https://twitter.com/mdo">twitter by @mdo</a>&nbsp;and&nbsp;<a
+        href="https://getbootstrap.com/docs/5.2/examples/cover/">Original is here</a>
+      My velog is
+      <a href="https://velog.io/@yuhiee123">@logidell</a>
+    </p>
+    </div>
+  </footer>
+
+
+  <!-- script -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

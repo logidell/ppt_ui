@@ -1,0 +1,74 @@
+video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.overlay {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    min-width: 100%;
+    min-height: 105%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    margin: 0px auto;
+    background: rgba(0, 0, 0, 0.514);
+}
+
+h1>a {
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+    text-align: center;
+    margin: 0px;
+    font-family: 'Noto Serif KR', serif;
+    font-style: bold;
+    text-decoration: none;
+}
+
+
+h1>a:hover {
+    color: rgba(0, 0, 0, 0);
+    font-family: 'Noto Serif KR';
+    text-align: center;
+    position: absolute;
+    transition: all 0.95s;
+
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    /* footer의 높이 */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    font-size: small;
+    color: rgb(165, 165, 165);
+    ;
+}
+
+footer>p>a {
+    text-decoration: none;
+    color: rgb(165, 165, 165);
+
+}
+
+footer>p>a:hover {
+    color: rgb(114, 35, 35);
+
+}
+
+a>img {
+    width: 150px;
+}
